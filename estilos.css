@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('codando1.jpg');
+  background-image: url('imagemFundo.jpg');
   background-size: auto 100vh; 
   font-family: 'Source Code Pro', monospace;
   height: 100vh;
@@ -42,7 +42,7 @@ header {
 }
 
 .menu {
-  background-color: white;
+  background-color: black;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -98,12 +98,12 @@ a:hover {
 
 .site-subtitle, 
 .site-title {
-  color: whitesmoke;
+  color: black;
   text-align: center;
 }
 
 .site-title {
-  font-size: 4em;
+  font-size: 5em;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
