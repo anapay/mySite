@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('fundo.jpg');
+  background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.0)), url('/img/fundo.jpg');
   background-size: auto 100vh; 
   font-family: 'Source Code Pro', monospace;
   height: 100vh;
@@ -98,7 +98,7 @@ a:hover {
 
 .site-subtitle, 
 .site-title {
-  color: rgb(124, 221, 205);
+  color: rgba(251, 255, 255, 0.671);
   text-align: center;
 }
 
@@ -130,6 +130,8 @@ a:hover {
 .portfolio .grid {
   display: grid;
   gap: 2em;
+  color: #07d4d4;
+
 }
 
 @media (min-width: 560px) {
